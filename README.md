@@ -1,6 +1,5 @@
 #MARGARITA MALIGAYA
 #Summary of Game of Life program
-#CS300 BART MASSEY
 #OCT-NOV 2020
 
 The goal of this program is to recreate Conway's Game of Life. This game consists of rules that determine whether a cell lives or dies. The program is to utilize ncurses. The program (in C++) is to allow the user to enter X's where they please by using the arrows on their keypad and pressing X. If the cell already has an "X" (which means the cell is alive) and the user presses X again, the cell will revert back to dead, shown as whitespace. The user can create any pattern within the terminal. If the user presses "n," the screen should move forward in time by one step or on generation. If the user presses "p," the program will take the pattern and continuously move in time, updating the cells and displaying a new generation every 0.5 seconds. At any time, whether creating a pattern or in play mode, the user can cleanly exit the game by pressing "q." 
